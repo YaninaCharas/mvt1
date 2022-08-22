@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Fabian</title>
+</head>
+<body>
+<h1>Este es mi primer titulo</h1>
+<br>
+El nombre es: {{nombre}}
+<br>
+Su edad es:{{edad}}
+<br>
+Hoy es el dia: {{ahora}}
+<br>
+<b>mi indice cero de la lista es {{lista.0}}</b>
+<br>
+{% for numero in lista %}
+<br>
+Mi elemento es {{numero}}
+{% endfor %}
+<br>
+{% for key, value in diccionario.items %}
+mostrar valor: {{key}}
+<br>
+y el valor es: {{value}}
+<br>
+{% endfor %}
+
+
+
+</body>
+</html>
